@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*:not(i) {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: coral;
+}
+
+.container{
+    background-color: white;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgb(238, 96, 44);
+}
+
+.searchbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbar input {
+    padding: 5px;
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid navy;
+    outline: none;
+    font-size: 16px;
+}
+
+.searchbar button {
+    padding: 15px 0;
+    width: 25%;
+    background-color: coral;
+    border: none;
+    outline: none;
+    color: white;
+    box-shadow: 10px;
+    border-radius: 5px;
+}
+
+.result{
+    position: relative;
+}
+
+.result h3{
+    font-size: 30px;
+    color: navy;
+    padding-top: 20px;
+}
+
+.result word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.result button{
+    background-color: transparent;
+    color: gray;
+    border: none;
+    outline: none;
+    float: right;
+    font-size: 18px;
+}
+
+.result button:hover{
+    color: navy;
+}
+
+.details{
+    display: flex;
+    gap: 10px;
+    color: gray;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+
+.wordMeaning{
+    color: lightcoral
+}
+
+.wordExample {
+    color: gray;
+    font-style: italic;
+    border-left: 5px solid coral;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 12px;
+}
